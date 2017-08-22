@@ -1,0 +1,22 @@
+{
+    "name": "less-sprite-generator",
+    "version": "1.0.0",
+    "description": "Generate sprite image and less file to use the sprite image with background-position",
+    "main": "sprite.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npm run clean && node sprite.js",
+        "clean": "del-cli dist/**"
+    },
+    "author": {
+        "name": "Naveen Dayananda",
+        "email": "naveen_dayananda@symantec.com"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "del-cli": "^1.1.0",
+        "sprity": "^1.0.8",
+        "sprity-jimp": "0.0.1",
+        "sprity-less": "^1.0.3"
+    }
+}
