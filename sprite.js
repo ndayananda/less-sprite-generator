@@ -11,7 +11,7 @@ sprity.create({
     processor: 'less',
     template: './less.hbs',
     style: './sprite.less',
-    margin: 0
+    margin: 2
 }, (err, result) => {
     if(err) {
         throw err;
